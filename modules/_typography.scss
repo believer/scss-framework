@@ -1,9 +1,8 @@
 // ------------------------------------------------------------
-// Modules
+// Typography and helper classes
 //
 // ------------------------------------------------------------
 
-@import 'colors';
-@import 'mixins';
-@import 'sizes';
-@import 'typography';
+.text--center {
+  text-align: center;
+}
