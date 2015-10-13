@@ -6,11 +6,11 @@
 //
 // Return whichever color of $light or $dark that contrasts
 // the best with the given $color
-// 
+//
 // @param {color} - Color to contrast with
 // @param {color} - Dark color (default: #000)
 // @param {color} - Light color (default: #fff)
-// 
+//
 // --------------------------------------------------
 $color-dark-default: #000;
 $color-light-default: #fff;
@@ -31,6 +31,6 @@ $color-light-default: #fff;
 //
 // PT to PX
 // --------------------------------------------------
-@function pointsToPixels($points, $ppi: 72) {
+@function points-to-pixels($points, $ppi: 72) {
   @return #{($points/$ppi) * 96}px;
 }
