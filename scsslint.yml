@@ -75,11 +75,11 @@ linters:
 
   NameFormat:
     enabled: true
-    convention: 'BEM' # hyphenated_lowercase,'BEM', or a regex pattern
+    convention: hyphenated_lowercase # hyphenated_lowercase (default), camel_case, snake_case, or a regex the name must match (eg: ^[a-zA-Z]+$)
 
   NestingDepth:
     enabled: true
-    max_depth: 3
+    max_depth: 4
 
   PlaceholderInExtend:
     enabled: true
